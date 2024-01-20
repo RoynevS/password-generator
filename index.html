@@ -22,14 +22,22 @@
         <label for="char-length">Character length <span>0</span></label>
         <input type="range" name="char-length" id="char-length">
 
-        <input type="checkbox" name="upper-letters" id="upper-letters">
-        <label for="upper-letters">Include Uppercase Letters</label>
-        <input type="checkbox" name="lower-letters" id="lower-letters">
-        <label for="lower-letters">Include Lowercase Letters</label>
-        <input type="checkbox" name="numbers" id="numbers">
-        <label for="numbers">Include Numbers</label>
-        <input type="checkbox" name="symbols" id="symbols">
-        <label for="symbols">Include Symbols</label>
+        <fieldset>
+          <input type="checkbox" name="upper-letters" id="upper-letters">
+          <label for="upper-letters">Include Uppercase Letters</label>
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="lower-letters" id="lower-letters">
+          <label for="lower-letters">Include Lowercase Letters</label>
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="numbers" id="numbers">
+          <label for="numbers">Include Numbers</label>
+        </fieldset>
+        <fieldset>
+          <input type="checkbox" name="symbols" id="symbols">
+          <label for="symbols">Include Symbols</label>
+        </fieldset>
 
         <button class="btn btn--generate-pw">Generate &rarr;</button>
       </form>
