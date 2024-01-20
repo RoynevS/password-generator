@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 30px auto;
+}
+
+.pw-field-wrapper {
+  display: flex;
+  border: 2px solid #000;
+  justify-content: space-between;
+}
+
+.btn {
+  border: none;
+  background-color: #444;
+  color: #fff;
+  min-width: 30px;
+}
+
+.option-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
